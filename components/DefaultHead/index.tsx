@@ -56,6 +56,9 @@ const DefaultHead: React.FC<IProps> = ({ title, description, url, ogi }) => {
                   content={ogi}
             />
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png"/>
+            <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=optional"
+                  rel="stylesheet"
+            />
         </>
     );
 };
