@@ -1,0 +1,80 @@
+
+.interactiveCard {
+  position: relative;
+  height: 251px;
+
+  .image {
+    width: 100%;
+  }
+
+  .card {
+    position: relative;
+    width: 286px;
+    height: 157px;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .cardBack {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .signatureBox {
+      position: absolute;
+      top: 46%;
+      right: 12%;
+      font-size: 9px;
+      line-height: 11px;
+      text-align: right;
+      letter-spacing: 1.28571px;
+    }
+  }
+
+  .cardFront {
+    position: absolute;
+    top: 94.4px;
+    left: 0;
+    filter: drop-shadow(0px 39px 60px rgba(0, 0, 0, 0.143));
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 17.6px 20.89px 19.6px 19px;
+
+      .logo {
+        width: 54px;
+      }
+
+      .cardNumber {
+        line-height: 23px;
+        letter-spacing: 2.2px;
+        margin-bottom: 17px;
+      }
+
+      .bottom {
+        display: flex;
+        justify-content: space-between;
+
+        .cardholderName {
+          font-size: 9px;
+          line-height: 11px;
+          letter-spacing: 1.28571px;
+        }
+
+        .expireDate {
+          font-size: 9px;
+          line-height: 11px;
+          letter-spacing: 1.28571px;
+        }
+      }
+    }
+  }
+}
