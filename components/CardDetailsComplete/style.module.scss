@@ -1,0 +1,31 @@
+
+.cardDetailsComplete {
+  text-align: center;
+
+  .icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 35px;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 3.42222px;
+    color: #21092F;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #8F8694;
+  }
+
+  .buttonContainer {
+    margin-top: 48px;
+  }
+}
