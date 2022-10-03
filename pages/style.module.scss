@@ -31,6 +31,11 @@
     }
   }
 
+  .hidden {
+    position: absolute;
+    top: -9999px;
+  }
+
   .container {
     width: 100%;
   }

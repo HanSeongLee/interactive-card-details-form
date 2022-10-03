@@ -7,6 +7,9 @@ const Home: NextPage = () => {
     return (
         <>
             <main className={styles.main}>
+                <h1 className={styles.hidden}>
+                    Interactive Card Details Form
+                </h1>
                 <Container className={styles.container}>
                     <CardInteractionFormContainer className={styles.cardInteractionFormContainer} />
                 </Container>
