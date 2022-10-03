@@ -33,7 +33,9 @@ const InteractiveCard: React.FC<IProps> = ({ cardDetails }) => {
                     />
 
                     <div className={styles.overlay}>
-                        <CardLogo className={styles.logo} />
+                        <CardLogo className={styles.logo}
+                                  title={'Logo'}
+                        />
 
                         <div>
                             <div className={styles.cardNumber}>
