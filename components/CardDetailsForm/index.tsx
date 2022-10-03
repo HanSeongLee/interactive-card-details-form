@@ -95,7 +95,6 @@ const CardDetailsForm: React.FC<IProps> = ({ register, control, errors, ...props
                                     }}
                                     render={({ field: { onChange, value }, fieldState: { error } }) => (
                                         <Input id={'expireDate'}
-                                               type={'number'}
                                                placeholder={'MM'}
                                                maxLength={2}
                                                onChange={(e) => {
