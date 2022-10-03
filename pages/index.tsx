@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     return (
         <>
             <main className={styles.main}>
-                <Container>
+                <Container className={styles.container}>
                     <CardInteractionFormContainer className={styles.cardInteractionFormContainer} />
                 </Container>
             </main>
